@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import SinopiaIntroduction from './SinopiaIntroduction'
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
           <p>
             Jeremy Nelson &amp; Astrid Usong
           </p>
-      
+
           <ul>
             <h3 className="App-title">Schedule</h3>
             <li>Sinopia Introduction</li>
