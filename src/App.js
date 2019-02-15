@@ -22,6 +22,7 @@ const App = () => (
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Presentation} />
+        <Route exact path="/code4lib_2019" component={Presentation} />
         <Route path="/building-resource-template" component={BuildingResourceTemplate} />
         <Route path="/introduction" component={SinopiaIntroduction} />
         <Route path="/installing-sinopia" component={InstallingSinopia} />
