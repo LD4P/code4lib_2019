@@ -24,10 +24,15 @@ const App = () => (
         <Route exact path="/" component={Presentation} />
         <Route exact path="/code4lib_2019" component={Presentation} />
         <Route path="/building-resource-template" component={BuildingResourceTemplate} />
+        <Route path="/code4lib_2019/building-resource-template" component={BuildingResourceTemplate} />
+        <Route path="/code4lib_2019/introduction" component={SinopiaIntroduction} />
         <Route path="/introduction" component={SinopiaIntroduction} />
         <Route path="/installing-sinopia" component={InstallingSinopia} />
+        <Route path="/code4lib_2019/installing-sinopia" component={InstallingSinopia} />
         <Route path="/next-steps" component={NextSteps} />
+        <Route path="/code4lib_2019/next-steps" component={NextSteps} />
         <Route path="/user-interface" component={UserInterface} />
+        <Route path="/code4lib_2019/user-interface" component={UserInterface} />
         <Route component={FourOhFour} />
       </Switch>
     </BrowserRouter>
