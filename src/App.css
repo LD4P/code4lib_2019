@@ -2,24 +2,51 @@
   text-align: left;
 }
 
+.App-body {
+  box-shadow: -3px 3px 10px 0px #999999;
+  background-color: white;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2em;
+  padding-left: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
 .App-header {
   /* background-color: #2F2424; */
-  min-height: 100vh;
+  margin-top: 5vh;
+  min-height: 25vh;
+  width: 60%;
+  margin-left: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   font-family: 'Source Sans Pro', sans-serif;
+  box-shadow: -3px 3px 10px 0px #999999;
+  background-color: white;
 }
+
+.App-navbar {
+  margin-left: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
 
 .App-title {
   /* color: white; */
   font-family: "Copperplate Gothic Light";
 }
 
-.App-link {
-  color: #61dafb;
+.App-topics {
+  width: 30%;
 }
 
 @keyframes App-logo-spin {

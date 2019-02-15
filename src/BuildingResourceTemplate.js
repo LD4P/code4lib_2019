@@ -3,13 +3,13 @@ import React from 'react';
 import NavBar from './NavBar'
 import './App.css';
 
-const UserInteface = () => (
+const BuildingResourceTemplate = () => (
   <div className="App">
-    <NavBar previous="/building-resource-template" next="/installing-sinopia" />
+    <NavBar previous="/introduction" next="/user-interface" />
     <div className="App-header">
-      <h1 className="App-title">User Interface</h1>
+      <h1 className="App-title">Building a <br />Resource Template</h1>
     </div>
   </div>
-);
+)
 
-export default UserInteface;
+export default BuildingResourceTemplate;

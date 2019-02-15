@@ -1,42 +1,35 @@
-import React, { Component } from 'react';
+// Copyright 2019 Stanford University see Apache2.txt for license
+import React from 'react';
 import './App.css';
-import SinopiaIntroduction from './SinopiaIntroduction'
+import { BrowserRouter,
+  Route,
+  Switch } from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faHome, faCaretSquareLeft, faCaretSquareRight } from '@fortawesome/free-solid-svg-icons'
+import BuildingResourceTemplate from './BuildingResourceTemplate';
+import FourOhFour from './FourOhFour';
+import InstallingSinopia from './InstallingSinopia';
+import NextSteps from './NextSteps';
+import Presentation from './Home';
+import SinopiaIntroduction from './SinopiaIntroduction';
+import UserInterface from './UserInterface';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-        <h2 className="App-title">Code4Lib 2019</h2>
-          <h1 className="App-title">Sinopia Preconference</h1>
-          <p>
-            Jeremy Nelson &amp; Astrid Usong
-          </p>
+library.add(faHome)
+library.add(faCaretSquareLeft)
+library.add(faCaretSquareRight)
 
-          <ul>
-            <h3 className="App-title">Schedule</h3>
-            <li>Sinopia Introduction</li>
-            <li>Building a Resource Template</li>
-            <li>User Interface Part. One</li>
-
-          <h4 className="App-title">Lunch</h4>
-
-            <li>User Interface Part. Two</li>
-            <li>Installing Sinopia Locally</li>
-            <li>Next steps</li>
-          </ul>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Schedule
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+const App = () => (
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Presentation} />
+        <Route path="/building-resource-template" component={BuildingResourceTemplate} />
+        <Route path="/introduction" component={SinopiaIntroduction} />
+        <Route path="/installing-sinopia" component={InstallingSinopia} />
+        <Route path="/next-steps" component={NextSteps} />
+        <Route path="/user-interface" component={UserInterface} />
+        <Route component={FourOhFour} />
+      </Switch>
+    </BrowserRouter>
+)
 
 export default App;
