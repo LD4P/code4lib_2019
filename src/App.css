@@ -29,18 +29,34 @@
   background-color: white;
 }
 
-.App-paragraph {
-  padding-left: .5em;
+
+.App-link {
+  color: #61dafb;
 }
+
 
 .App-navbar {
   margin-left: 10vh;
   display: flex;
   flex-direction: row;
+
 }
 
-.App-link {
-  color: #61dafb;
+.App-navfooter {
+  box-shadow: -3px 3px 10px 0px #999999;
+  background-color: white;
+  width: 25em;
+  margin-left: 60%;
+  margin-top: 2em;
+  font-size: 1.3em;
+  text-align: right;
+  vertical-align: middle;
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
+
+.App-paragraph {
+  padding-left: .5em;
 }
 
 

@@ -1,20 +1,21 @@
 // Copyright 2018 Stanford University see Apache2.txt for license
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class NavBar extends React.Component {
   render() {
     return (
       <div className="App-navbar">
-        <a href={this.props.previous}>
+        <Link to={this.props.previous}>
           <FontAwesomeIcon icon="caret-square-left" />
-        </a>
-        <a href="/">
+        </Link>
+        <Link to="/">
           <FontAwesomeIcon icon="home" />
-          </a>
-        <a href={this.props.next}>
+        </Link>
+        <Link to={this.props.next}>
           <FontAwesomeIcon icon="caret-square-right" />
-        </a>
+        </Link>
       </div>
     );
   }

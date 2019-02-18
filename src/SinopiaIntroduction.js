@@ -17,10 +17,10 @@ const SinopiaIntroduction = () => (
       Linked Data for Production
       (LD4P2), funded by the Andrew W. Mellon Foundation, to enable library professionals
       to do original and copy cataloging on a wide range of
-      collections and contexts.
-      </p>
-    </div>
-    <div className="App-body">
+      collections and contexts. Sinopia's codebase orginated from two Library of Congress projects;
+      the <a href="http://bibframe.org/profile-edit/#/profile/list">Profile Editor</a> and
+      <a href="http://bibframe.org/bfe/index.html">BIBFRAME Editor (BFE)</a>.
+    </p>
       <ProjectLevelSuccessCriteria />
     </div>
     <div className="App-body">
@@ -34,9 +34,12 @@ const SinopiaIntroduction = () => (
       </ol>
       <MilestonesArchitecture />
     </div>
-    <div className="App-body">
+    <div className="App-navfooter">
+      <Link to="/">
+        <FontAwesomeIcon icon="home" />
+      </Link>&nbsp;
       <Link to="/building-resource-template">
-        Building a Resource Template
+        Building a Resource Template &nbsp;
         <FontAwesomeIcon icon="caret-square-right" />
       </Link>
     </div>

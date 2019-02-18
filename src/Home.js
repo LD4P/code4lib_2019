@@ -18,6 +18,7 @@ class Presentation extends Component {
         <h1 className="App-title">Sinopia Preconference</h1>
           <p>
             Jeremy Nelson &amp; Astrid Usong
+            <br />Stanford University Libraries
           </p>
           <h3 className="App-title">Schedule</h3>
           <ul className="App-topics">
@@ -39,11 +40,13 @@ class Presentation extends Component {
         </div>
         <div className="App-body">
           <h2 className="App-title">Sinopia Front-End Lightning Talk</h2>
-          <p>Naomi Dushay &amp; Jeremy Nelson</p>
+          <p>Naomi Dushay &amp; Jeremy Nelson<br />Stanford University Libraries</p>
         </div>
         <div className="App-body">
           <h2 className="App-title">Sinopia Server Lightening Talk</h2>
-          <p>John Martin, Jeremy Nelson, &amp; Mike Giarlo</p>
+          <p>John Martin, Jeremy Nelson, &amp; Mike Giarlo,<br />
+             Stanford University Libraries.
+          </p>
         </div>
       </div>
     );
