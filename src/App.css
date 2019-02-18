@@ -5,8 +5,8 @@
 .App-body {
   box-shadow: -3px 3px 10px 0px #999999;
   background-color: white;
-  width: 60%;
-  margin-left: 20%;
+  width: 80%;
+  margin-left: 10%;
   margin-top: 2em;
   padding-left: 1em;
   padding-top: .5em;
@@ -17,8 +17,8 @@
   /* background-color: #2F2424; */
   margin-top: 5vh;
   min-height: 25vh;
-  width: 60%;
-  margin-left: 20%;
+  width: 80%;
+  margin-left: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,6 +27,10 @@
   font-family: 'Source Sans Pro', sans-serif;
   box-shadow: -3px 3px 10px 0px #999999;
   background-color: white;
+}
+
+.App-paragraph {
+  padding-left: .5em;
 }
 
 .App-navbar {

@@ -7,7 +7,7 @@ const BuildingResourceTemplate = () => (
   <div className="App">
     <NavBar previous="/introduction" next="/user-interface" />
     <div className="App-header">
-      <h1 className="App-title">Building a <br />Resource Template</h1>
+      <h1 className="App-title">Building a Resource Template</h1>
     </div>
   </div>
 )
