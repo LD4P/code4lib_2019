@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import './App.css';
 
 class Presentation extends Component {
@@ -20,24 +21,21 @@ class Presentation extends Component {
           </p>
           <h3 className="App-title">Schedule</h3>
           <ul className="App-topics">
-            <li><a href="/introduction">Sinopia Introduction</a></li>
-            <li><a href="/building-resource-template">Building a Resource Template</a></li>
-            <li><a href="/user-interface#part-one">User Interface Part. One</a></li>
+            <li><Link to="/introduction">Sinopia Introduction</Link></li>
+            <li><Link to="/building-resource-template">Building a Resource Template</Link></li>
+            <li><Link to="/user-interface#part-one">User Interface Part. One</Link></li>
           </ul>
           <h4 className="App-title">Lunch</h4>
           <ul className="App-topics">
-            <li><a href="/user-interface#part-two">User Interface Part. Two</a></li>
-            <li><a href="/installing-sinopia">Installing Sinopia Locally</a></li>
-            <li><a href="/next-steps">Next steps</a></li>
+            <li><Link to="/user-interface#part-two">User Interface Part. Two</Link></li>
+            <li><Link to="/installing-sinopia">Installing Sinopia Locally</Link></li>
+            <li><Link to="/next-steps">Next steps</Link></li>
           </ul>
-          <a
-            className="App-link"
-            href="/introduction"
-            rel="noopener noreferrer"
-          >
+          <Link
+            to="/introduction">
             Sinopia Introduction
             <FontAwesomeIcon icon="caret-square-right" />
-          </a>
+          </Link>
         </div>
         <div className="App-body">
           <h2 className="App-title">Sinopia Front-End Lightning Talk</h2>
