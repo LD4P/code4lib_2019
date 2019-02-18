@@ -4,7 +4,10 @@ import './App.css';
 
 const Footer = () => (
   <footer class="App-body">
-    All content licensed under CC-0 Universal .
+    All content licensed under&nbsp;
+    <a href="https://creativecommons.org/publicdomain/zero/1.0/">
+      CC 1-0 Universal
+    </a>.
   </footer>
 )
 
