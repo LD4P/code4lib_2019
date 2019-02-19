@@ -14,7 +14,7 @@ const NextSteps = () => (
       <h1 className="App-title">Next Steps</h1>
     </div>
     <div className="App-body">
-      <h2 className="App-title">April/May - Soft launch of MVP</h2>
+      <h2 className="App-title">April - Soft launch of MVP</h2>
       <p>Cohorts start using Sinopia for their projects while development
        focuses on bug fixes and backfill functionality based on user
        needs.</p>

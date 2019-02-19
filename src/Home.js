@@ -38,16 +38,6 @@ class Presentation extends Component {
             <FontAwesomeIcon icon="caret-square-right" />
           </Link>
         </div>
-        <div className="App-body">
-          <h2 className="App-title">Sinopia Front-End Lightning Talk</h2>
-          <p>Naomi Dushay &amp; Jeremy Nelson<br />Stanford University Libraries</p>
-        </div>
-        <div className="App-body">
-          <h2 className="App-title">Sinopia Server Lightening Talk</h2>
-          <p>John Martin, Jeremy Nelson, &amp; Mike Giarlo,<br />
-             Stanford University Libraries.
-          </p>
-        </div>
       </div>
     );
   }
