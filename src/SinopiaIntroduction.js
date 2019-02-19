@@ -18,8 +18,8 @@ const SinopiaIntroduction = () => (
       (LD4P2), funded by the Andrew W. Mellon Foundation, to enable library professionals
       to do original and copy cataloging on a wide range of
       collections and contexts. Sinopia's codebase orginated from two Library of Congress projects;
-      the <a href="http://bibframe.org/profile-edit/#/profile/list">Profile Editor</a> and
-      <a href="http://bibframe.org/bfe/index.html">BIBFRAME Editor (BFE)</a>.
+      the <a href="http://bibframe.org/profile-edit/#/profile/list">Profile Editor</a>&nbsp;
+      and <a href="http://bibframe.org/bfe/index.html">BIBFRAME Editor (BFE)</a>.
     </p>
       <ProjectLevelSuccessCriteria />
     </div>

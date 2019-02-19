@@ -54,7 +54,7 @@ const InstallingSinopia = () => (
       <h1 className="App-title">Install and Build Sinopia Linked Data Editor</h1>
       <ol>
         <li>Change to the Sinopia Linked Data Editor directory:
-          <code><pre>$ cd sinopia_editor</pre></code>
+          <code><pre>$ cd sinopia_editor-0.2.0</pre></code>
         </li>
         <li>Run <strong>npm install</strong> command to install all of the Sinopia
         Linked Data Editor node module dependencies.
