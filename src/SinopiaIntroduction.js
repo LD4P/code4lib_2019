@@ -1,7 +1,7 @@
 // Copyright 2019 Stanford University see Apache2.txt for license
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from './Footer'
+import Footer from './Footer';
 import NavBar from './NavBar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { ReactComponent as MilestonesArchitecture } from './milestones-architecture.svg'
@@ -18,15 +18,15 @@ const SinopiaIntroduction = () => (
       (LD4P2), funded by the Andrew W. Mellon Foundation, to enable library professionals
       to do original and copy cataloging on a wide range of
       collections and contexts. Sinopia's codebase orginated from two Library of Congress projects;
-      the <a href="http://bibframe.org/profile-edit/#/profile/list">Profile Editor</a> and
-      <a href="http://bibframe.org/bfe/index.html">BIBFRAME Editor (BFE)</a>.
+      the <a href="http://bibframe.org/profile-edit/#/profile/list">Profile Editor</a>&nbsp;
+      and <a href="http://bibframe.org/bfe/index.html">BIBFRAME Editor (BFE)</a>.
     </p>
       <ProjectLevelSuccessCriteria />
     </div>
     <div className="App-body">
       <h1 className="App-title">Milestones &amp; Architecture</h1>
       <ol className="App-title">
-        <li>Stand-Alone Profile Editor + Sinopia Homepage in UAT in AWS</li>
+        <li id="M1">Stand-Alone Profile Editor + Sinopia Homepage in UAT in AWS</li>
         <li>Profile "Dress Rehearsal" + Components Confirmed + "Simple Search"</li>
         <li>User Login and "Profile Opening Night"</li>
         <li>Production of Original Data: Create and save data in Editor</li>
