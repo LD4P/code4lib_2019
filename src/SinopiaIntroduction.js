@@ -1,7 +1,7 @@
 // Copyright 2019 Stanford University see Apache2.txt for license
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from './Footer'
+import Footer from './Footer';
 import NavBar from './NavBar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { ReactComponent as MilestonesArchitecture } from './milestones-architecture.svg'
@@ -26,7 +26,7 @@ const SinopiaIntroduction = () => (
     <div className="App-body">
       <h1 className="App-title">Milestones &amp; Architecture</h1>
       <ol className="App-title">
-        <li>Stand-Alone Profile Editor + Sinopia Homepage in UAT in AWS</li>
+        <li id="M1">Stand-Alone Profile Editor + Sinopia Homepage in UAT in AWS</li>
         <li>Profile "Dress Rehearsal" + Components Confirmed + "Simple Search"</li>
         <li>User Login and "Profile Opening Night"</li>
         <li>Production of Original Data: Create and save data in Editor</li>

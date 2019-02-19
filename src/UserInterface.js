@@ -20,7 +20,7 @@ const UserInteface = () => (
       <Link to="/">
         <FontAwesomeIcon icon="home" />
       </Link>&nbsp;
-      <Link to="/next-steps">Next Steps
+      <Link to="/installing-sinopia">Installing Sinopia Locally 
         &nbsp;
         <FontAwesomeIcon icon="caret-square-right" />
       </Link>
