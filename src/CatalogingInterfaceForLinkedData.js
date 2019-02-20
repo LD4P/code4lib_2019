@@ -1,7 +1,6 @@
 // Copyright 2019 Stanford University see Apache2.txt for license
 import React from 'react';
 import Footer from './Footer'
-import NavBar from './NavBar'
 
 import EditionProfile from './images/lightning/editionProfile.png';
 import LanguageProfile from './images/lightning/langProfile.png';
