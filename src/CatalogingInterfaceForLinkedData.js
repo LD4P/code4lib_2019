@@ -18,14 +18,13 @@ const CatalogingInterfaceForLinkedData = () => (
     <div className="App-body">
       <h2 className="App-title">Linked Data is Hard</h2>
       <p>
-        Linked Data is very granular, need a better conceptual framework for
-        faciltate productive CRUD operations at the level of RDF triples.
-        Library of Congress organized their
-        <a href="http://bibframe.org/bfe/index.html">BIBFRAME Editor</a> using
-        an abstraction for creating and editing BIBFRAME entities using a kind of JSON-based
-        domain specific language (DSL) called BIBFRAME Profiles. These profiles allows us to construct
-        specialized HTML forms to create BIBFRAME building blocks based on
-        Works, Instances, Items, Agents, etc.
+        Linked Data is very granular.
+        Metadata is created and used in less granular constructs.
+
+        The <a href="http://bibframe.org/bfe/index.html">BIBFRAME Editor</a> of the Library of Congress
+        uses "Profiles" -- a kind of JSON-based domain specific language (DSL) to facilitate description
+        of BIBFRAME 2.0 concepts, such as Works, Instances, Agents, Items, etc.
+        These Profiles are translated into HTML forms for metadata creation/editing in the BIBFRAME Editor.
       </p>
     </div>
     <div className="App-body">
@@ -34,11 +33,10 @@ const CatalogingInterfaceForLinkedData = () => (
       Sinopia's Linked Data Editor constructs RDF based on HTML forms.
       The current work-in-progress is available
       at <a href="https://sinopia.io/editor">https://sinopia.io/editor</a>.
-
       </p>
       <p>
-      What forms are displayed are variable and depends on the Resource
-      Templates and the template's contained Property Templates.
+      Which HTML forms appear depends on the Resource
+      Template and the template's contained Property Templates.
       </p>
     </div>
     <div className="App-body">
