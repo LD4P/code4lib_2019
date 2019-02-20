@@ -40,7 +40,7 @@ class Presentation extends Component {
             <FontAwesomeIcon icon="caret-square-right" />
           </Link>
         </div>
-        <hr />
+      
         <div className="App-body">
           <h2 className="App-title">
             <Link to="/cataloging-interface">
