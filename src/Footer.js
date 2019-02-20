@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 
 const Footer = () => (
-  <footer class="App-body">
+  <footer className="App-body">
     All content licensed under&nbsp;
     <a href="https://creativecommons.org/publicdomain/zero/1.0/">
       CC 1-0 Universal
