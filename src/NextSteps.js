@@ -43,7 +43,7 @@ const NextSteps = () => (
     <div className="App-body">
       <h2 className="App-title">User Interface</h2>
       <ul>
-        <li>Sinopia  <a href="https://invis.io/5YNLDND63KF">Persona</a></li>
+        <li>Sinopia <a href="https://invis.io/5YNLDND63KF">Persona</a></li>
         <li>Sinopia <a href="https://invis.io/WDQFD026J9F">Profile Tab</a></li>
       </ul>
     </div>
