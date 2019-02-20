@@ -38,6 +38,15 @@ class Presentation extends Component {
             <FontAwesomeIcon icon="caret-square-right" />
           </Link>
         </div>
+        <hr />
+        <div className="App-body">
+          <h2 className="App-title">
+            <Link to="/code4lib_2019/cataloging-interface">
+            Cataloging Interface for Linked Data
+            </Link>
+          </h2>
+          <p>Naomi Dushay &amp; Jeremy Nelson<br />Stanford University Libraries</p>
+        </div>
       </div>
     );
   }

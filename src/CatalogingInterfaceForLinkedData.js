@@ -1,13 +1,11 @@
 // Copyright 2019 Stanford University see Apache2.txt for license
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Footer from './Footer'
 import NavBar from './NavBar'
 
 import './App.css';
 
-const CatalogingInterfaceForLinkedData () => (
+const CatalogingInterfaceForLinkedData = () => (
   <div className="App">
     <NavBar previous="/installing-sinopia" next="/" />
     <div className="App-header">
@@ -37,7 +35,7 @@ const CatalogingInterfaceForLinkedData () => (
       </p>
     </div>
     <div className="App-body">
-      <h2 className="App-title">Resource Template JSON DS</h2>
+      <h2 className="App-title">Resource Template JSON DSL</h2>
       <p>
       These forms are configurable using the Resource Template JSON DSL.
       [Show raw JSON of Place or Form] and then compare loading introduction
