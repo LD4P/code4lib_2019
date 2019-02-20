@@ -20,12 +20,11 @@ library.add(faCaretSquareLeft)
 library.add(faCaretSquareRight)
 
 const App = () => (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={Presentation} />
         <Route exact path="/code4lib_2019" component={Presentation} />
         <Route path="/building-resource-template" component={BuildingResourceTemplate} />
-        
         <Route path="/cataloging-interface" component={CatalogingInterfaceForLinkedData} />
         <Route path="/code4lib_2019/building-resource-template" component={BuildingResourceTemplate} />
         <Route path="/code4lib_2019/introduction" component={SinopiaIntroduction} />

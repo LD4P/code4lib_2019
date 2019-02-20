@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
+
 import './App.css';
 
 class Presentation extends Component {
@@ -41,12 +43,13 @@ class Presentation extends Component {
         <hr />
         <div className="App-body">
           <h2 className="App-title">
-            <Link to="/code4lib_2019/cataloging-interface">
+            <Link to="/cataloging-interface">
             Cataloging Interface for Linked Data
             </Link>
           </h2>
           <p>Naomi Dushay &amp; Jeremy Nelson<br />Stanford University Libraries</p>
         </div>
+        <Footer />
       </div>
     );
   }
